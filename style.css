@@ -257,14 +257,14 @@ h4{
 .sectionOmorfiaImg img {
   width: 250px;
 }
-.sobreNosotros img {
-  width: 175px;
-}
 .sectionOmorfia{
   height: auto;
 }
 .omorfiaContent{
   padding: 0;
+}
+.imgPersonaje img{
+  right: 40px;
 }
 }
 
@@ -283,6 +283,13 @@ h4{
 @media screen and (min-width: 576px){
   .omorfiaContent, .sectionComic, .SectionPersonajesPrincipal, .sobreNosotros, .footer{
     padding: 0 3rem ;
+  }
+}
+
+@media screen and (min-width: 640px){
+  iframe{
+    width: 560px !important;
+    height: 315px !important;
   }
 }
 
@@ -313,6 +320,20 @@ h4{
   .menu-navegacion{
     background-color: #7fb841;
   }
+
+  .sobreNosotros{
+    margin: auto 
+  }
+  .sobreNosotros img {
+    width: 175px;
+    height: 175px;
+  }
+  .sectionComic {
+    margin: 1rem 0rem 1rem 0rem !important;
+}
+.SectionPersonajesPrincipal {
+  margin: 3rem 0rem 3rem 0rem !important;
+}
 }
 
 @media screen and (min-width: 992px){
@@ -338,15 +359,11 @@ h4{
   .hero_header{
   max-width: 100%;
 }
+.sobreNosotros{
+  margin: auto;
+}
 } 
 
-
-
-@media screen and (min-width: 0px){
-  .imgPersonaje img{
-    right: 40px;
-  }
-}
 
 @media screen and (min-width: 1400px){
   .imgPersonaje img{
