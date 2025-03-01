@@ -48,7 +48,7 @@ function cambiarPersonaje(e){
         imagenPrincipal.classList.add('animacionPersonaje');
         setTimeout(function() {imagenPrincipal.classList.remove('animacionPersonaje');}, 300);
         titulo.innerText = 'GOMEZ';
-        parrafo.innerHTML = 'Propietario de un supermercado local.<br>Es descrito como un hombre mayor y amargado.<br>Se muestra resentido y crítico cuando ve a la familia comprando en los mercados campesinos, y argumenta que los productos que venden son más confiables y menos costosos.';
+        parrafo.innerHTML = 'Propietario de un supermercado local.<br>Es descrito como un hombre mayor y amargado.<br>Se muestra resentido y crítico cuando ve a la familia comprando en los mercados campesinos, y argumenta que los productos que el vende son más confiables y menos costosos.';
         idiomaNumber = 7
     }
 }
